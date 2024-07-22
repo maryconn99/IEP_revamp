@@ -4573,7 +4573,7 @@ html[xmlns] .slides {
   margin: 0 6px;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  /* *display: inline; */
 }
 .flex-control-paging li a {
   width: 11px;
@@ -4643,7 +4643,7 @@ html[xmlns] .slides {
   -ms-touch-action: none;
   touch-action: none;
   z-index: 1500;
-  -webkit-text-size-adjust: 100%;
+  /* -webkit-text-size-adjust: 100%; */
   -webkit-backface-visibility: hidden;
   outline: none;
 }
