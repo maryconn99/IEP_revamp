@@ -5,8 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navbar with Logo and Dropdowns</title>
     <link rel="stylesheet" href="styles.css">
+
+    <style>
+        /* adding styles for quote button (trial) */
+        .nav-item {
+            list-style: none; /* Remove removed previous styles */
+        }
+
+        .quote {
+            display: inline-block; 
+            padding: 10px 20px; /* Add padding for button looks */
+            background-color: rgba(255, 255, 255, 0); /* Button background color */
+            color: #3e9dc2; /* Button text color */
+            text-align: center;
+            text-decoration: none; 
+            border-radius: 5px; /* Add rounded corners */
+            transition: background-color 0.3s; /* Smooth background color transition */
+        }
+
+        .quote:hover {
+            background-color: #3e9dc2; /* Change background color on hover */
+        }
+    </style>
+    <title>button link</title>
+
 </head>
 <body>
+   
     <header class="header">
         <div class="logo-container">
             <img src="https://raw.githubusercontent.com/maryconn99/IEP_revamp/main/iep-logo.png" alt="Logo" class="logo">
@@ -34,8 +59,9 @@
                         <a href="#rescue">Fire Rescue Products</a>
                     </div>
                 </li>
+               
                 <li class="nav-item">
-                    <a href="#quotes" class="quote">Request a Quote</a>
+                    <a href="quote.html" class="quote">Request a Quote</a>
                 </li>
             </ul>
       

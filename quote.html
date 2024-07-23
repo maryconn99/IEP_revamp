@@ -1,0 +1,113 @@
+<!-- newpage.html -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar with Logo and Dropdowns for quote page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* adding styles for quote button (trial) */
+        .nav-item {
+            list-style: none; /* Remove removed previous styles */
+        }
+
+        .quote {
+            display: inline-block; 
+            padding: 10px 20px; /* Add padding for button looks */
+            background-color: rgba(255, 255, 255, 0); /* Button background color */
+            color: #3e9dc2; /* Button text color */
+            text-align: center;
+            text-decoration: none; 
+            border-radius: 5px; /* Add rounded corners */
+            transition: background-color 0.3s; /* Smooth background color transition */
+        }
+
+        .quote:hover {
+            background-color: #3e9dc2; /* Change background color on hover */
+        }
+    </style>
+    <title>button link</title>
+    <body>
+        <div class="sidebar">
+            <h2>Our Products</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    
+   
+        <header class="header">
+            <div class="logo-container">
+                <img src="https://raw.githubusercontent.com/maryconn99/IEP_revamp/main/iep-logo.png" alt="Logo" class="logo">
+                <h1>Industrial Energy Products Inc.</h1>
+                <!-- <img src="https://raw.githubusercontent.com/maryconn99/IEP_revamp/main/banner-03.jpg" alt="banner-flag" class="banner-flag" -->
+            </div>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li class="nav-item dropdown">
+                        <a href="#custom" class="dropbtn">Industrial Products</a>
+                        <div class="dropdown-content">
+                            <a href="#fireproof">Fireproofing Tape</a>
+                            <a href="#insulation">Refactory Insulation/Thermal Insulation</a>
+                            <a href="#mortar">Mortar</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#custom" class="dropbtn">Custom Fabrication</a>
+                        <div class="dropdown-content">
+                            <a href="#containment">Fire Containment Bags</a>
+                            <a href="#resistant">Fire Resistant Pouches</a>
+                            <a href="#protective">Fire Protective Products</a>
+                            <a href="#hightemp">High Temperature Textiles</a>
+                            <a href="#Tadpole">Tadpole Gaskets</a>
+                            <a href="#rescue">Fire Rescue Products</a>
+                        </div>
+                    </li>
+                   
+                    <li class="nav-item">
+                        <a href="quote.html" class="quote">Request a Quote</a>
+                    </li>
+                </ul>
+          
+            </nav>
+        </header>
+    
+        <main>
+            
+            <div class="side-menu-items">
+            <div class="side-bar-class-american">
+               <h2> <img src="https://raw.githubusercontent.com/maryconn99/IEP_revamp/main/american-made.png" alt="American Made"></h2>
+               <div class="contact-us"><button class="contact-us">Contact Us! (717)492-1853<br>Fax: (717)492-1854<br>Email: info@iepindustrial.com</button></div> 
+            </div>
+        </div>
+    
+            <div class="container">
+                <section class="content1">
+                    <h2>Thermal Insulation</h2>
+                    <img src="https://raw.githubusercontent.com/maryconn99/IEP_revamp/main/thermal-insulation.jpg" alt="Thermal Insulation" class="photo1" width="100%" height="40%" border-radius= 15px>
+                    <p>Removable and reusable insulation blankets...<a href="https://www.iepindustrial.com/industrial-products/refactory-thermal-insulation.php"target="LearnMore"> Learn More</a></p>
+                </section>
+    
+                <section class="content2">
+                    <h2>Custom Fabrication</h2>
+                    <img src="https://raw.githubusercontent.com/maryconn99/IEP_revamp/main/custom-fab.jpg" alt="Custom Fabrication" class="photo2" width="100%" height="40%">
+                    <p>Full custom fabricator of high temperature insulation...<a href="https://www.iepindustrial.com/custom-fabrication/" target="LearnMore"> Learn More</a></p>
+                </section>
+            </div>
+    
+            <section class="banner">
+                <h2>We strive to provide our customers quality products and superior service.</h2>
+                <p>For over 20 years, Industrial Energy Products has been the trusted manufacturer to supply and offer American-made products and services to businesses and individuals in need of high-temperature custom materials. With over 30 years of experience in the application of manufacturing high-temperature insulation to materials, we have become the preferred choice for customers who value superior quality, integrity, and professional services.</p>
+            </section>
+        </main>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2024 Industrial Energy Products Inc. All rights reserved. Privacy Policy</p>
+          <p>Site Map. Contact Us</p>
+        </div>
+    </body>
+    </html>
