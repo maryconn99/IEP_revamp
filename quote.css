@@ -5,54 +5,6 @@ body {
     background-color: #f0f0f0;
     padding: 0 20px;
 }
-
-.sidebar{
-    background-color: #898989;
-    color: white;
-    padding: 10px 10px 10px;
-    border: none;
-    flex: right;
-    text-align: center;
-    width: 200;
-    float: right;
-    display: flex;
-    justify-content: end;
-    border-radius: 10px;
-}
-
-.sidebar h2 {
-    color: rgb(33, 15, 232);
-    text-align: center;
-}
-
-.sidebar ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.sidebar ul li {
-    padding: 15px;
-    text-align: center;
-}
-
-.sidebar ul li a {
-    color: white;
-    text-decoration: none;
-    display: block;
-    transition: background-color 0.3s;
-}
-
-.sidebar ul li a:hover {
-    background-color: #575757;
-}
-
-.content {
-    margin-left: 260px; /* Same as the width of the sidebar */
-    padding: 20px;
-    background-color: #f4f4f4;
-    min-height: 100vh;
-}
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -61,19 +13,15 @@ body {
     padding: 0 20px;
     color: #3e9dc2;
 }
-/* banner flag css still working on */
-/* .banner-flag {
+
+.title-of-page{
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    width: 100%;
-    float: left;
-    margin-right: -100%;
-    position: relative;
-    opacity: 0;
-    display: block;
-    z-index: 1;
-} */
+    background-color: #292121 (255,255,255,0.5);
+    padding: 0 20px;
+    color: #3e9dc2;
+}
 
 .logo-container {
     display: flex;
@@ -145,20 +93,6 @@ body {
     background-color: #3e9dc2(241, 241, 241, 0.8);
 }
 
-.contact-us {
-    background-color: #898989;
-    color: white;
-    padding: 10px 10px 10px;
-    border: none;
-    flex: right;
-    text-align: center;
-    width: 200;
-    float: right;
-    display: flex;
-    justify-content: end;
-    border-radius: 10px;
-}
-
 .nav-btn:hover {
     background-color: #3e9dc2;
 }
@@ -176,7 +110,7 @@ body {
     margin: auto;
     display: flex; 
     justify-content: space-between;
-    
+
 }
 
 h2 {
@@ -238,7 +172,78 @@ p {
     border-top: 1px solid #777;
 }
 
+.sidemenu {
+    width: 300px;
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    overflow: hidden;
+    padding: 0;
+}
 
+.our-prods {
+    width: 100%;
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.2em;
+    cursor: default;
+    margin: 0;
+    position: relative;
+}
+.our-prods:before, .our-prods:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 15px 15px 15px;
+    border-color: transparent transparent orange transparent;
+    top: 100%;
+}
+
+.our-prods:before {
+    left: 0;
+}
+
+.our-prods:after {
+    right: 0;
+}
+
+.products {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.products li {
+    border-top: 1px solid #eee;
+}
+
+.products li:first-child {
+    border-top: none;
+}
+
+.products li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+    border: 1px solid transparent; /* Add a border for hover effect */
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.products li a:hover {
+    background-color: #007BFF;
+    color: white;
+    border: 1px solid #007BFF; /* Change border color on hover */
+}
 
 
 
