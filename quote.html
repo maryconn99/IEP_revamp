@@ -29,9 +29,6 @@
     </style>
     <title>button link</title>
     <body>
-        
-    
-   
         <header class="header">
             <div class="logo-container">
                 <img src="https://raw.githubusercontent.com/maryconn99/IEP_revamp/main/iep-logo.png" alt="Logo" class="logo">
@@ -69,10 +66,65 @@
         </header>
         
         <header class="title-of-page">
-            <h1>Request a Quote</h1>
+            <h2>Request a Quote</h2>
         </header>
+        
     
         <body>
+            <div class="form-container">
+                <form action="/submit-form" method="post">
+                    <div class="form-group">
+                        <label for="name">* Name:</label>
+                        <input type="text" id="name" name="name" required>
+    
+                        <label for="company">Company Name:</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone">
+    
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="min-temp">Minimum Temp:</label>
+                        <input type="number" id="min-temp" name="min-temp">
+    
+                        <label for="max-temp">Maximum Temp:</label>
+                        <input type="number" id="max-temp" name="max-temp">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="quantity">Quantity to Quote:</label>
+                        <input type="number" id="identity" name="identity">
+                    </div>
+    
+                    <div class="form-group captcha">
+                        <div class="g-recaptcha" data-sitekey="iep-site-key"></div>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="submit-btn">SUBMIT</button>
+                    </div>
+                </form>
+            </div>
+            <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+            <body>
+                <div class="contact-box">
+                    <h3>Industrial Energy Products Inc.</h3>
+                    <p>56 Newcomer Road<br>
+                    Mount Joy, PA 17552</p>
+                    <p>
+                        <a href="tel: +17174921853">
+                            <img src="email-icon.png" alt="Email icon"> info@iepindustrial.com
+                        </a>
+                    </p>
+                </div>
+            </body>
+
             <div class="sidemenu">
                 <button class="our-prods">Our Products</button>
                 <ul class="products">

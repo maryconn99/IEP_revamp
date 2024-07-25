@@ -14,13 +14,14 @@ body {
     color: #3e9dc2;
 }
 
-.title-of-page{
+.title-of-page {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #292121 (255,255,255,0.5);
     padding: 0 20px;
     color: #3e9dc2;
+    margin: auto;
 }
 
 .logo-container {
@@ -82,7 +83,7 @@ body {
 }
 
 .dropdown-content a:hover {
-    background-color: #3e9dc2;
+    color: #3e9dc2;
 }
 
 .nav-item.dropdown:hover .dropdown-content {
@@ -90,11 +91,11 @@ body {
 }
 
 .nav-item.dropdown:hover > a {
-    background-color: #3e9dc2(241, 241, 241, 0.8);
+    color: #3e9dc2(241, 241, 241, 0.8);
 }
 
 .nav-btn:hover {
-    background-color: #3e9dc2;
+    color: #3e9dc2;
 }
 
 .container {
@@ -113,10 +114,17 @@ body {
 
 }
 
-h2 {
+h1 {
     font-size: 1.5em;
     margin-bottom: 10px;
 }
+h2 {
+    font-size: 2.0em;
+    text-align: center;
+    display: inline-block;
+}
+/*fix these later ^ Need to get title centered*/
+/*need to get the items drop down menu to the left of request a quote and flex to screen*/
 
 .content1 {
     text-align: center;
@@ -233,104 +241,92 @@ p {
     padding: 15px;
     text-decoration: none;
     color: #333;
-    transition: background-color 0.3s, color 0.3s;
+    transition: color 0.3s; /* font color change*/
     border: 1px solid transparent; /* Add a border for hover effect */
     border-radius: 5px;
     background-color: #f9f9f9;
 }
 
 .products li a:hover {
-    background-color: #007BFF;
-    color: white;
-    border: 1px solid #007BFF; /* Change border color on hover */
+    /* background-color: #007BFF; */
+    color: #3e9dc2;
+    /* border: 1px solid #007BFF; Change border color on hover */
 }
 
-
-
-
-
-/* body{ 
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+.form-container {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto;
 }
 
-.banner{
-    background-color: #333;
+form {
+    Display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px; 
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: calc(100% - 20px);
+}
+
+.form-group.captcha {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.submit-btn {
+    background-color: #3e9dc2;
     color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    transition: background-color 0.3s;
+}
+.contact-box {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-box h2 {
+    color: #00a9e0;
+    margin-top: 0;
+}
+
+.contact-box p {
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.contact-box a {
+    color: #00a9e0;
+    text-decoration: none;
     display: flex;
     align-items: center;
-    padding: 10px 20px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
 }
-
-.logo{
-    height: 40px;
-    margin-right: auto;
-}
-
-.navigation{
-    display: flex;
-    margin-right: center;
-}
-
-.nav-btn{
-    background-color: #444;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin: 0 10px;
-    cursor: pointer;
-    position: relative;
-}
-
-.dropdown{
-    position: relative;
-}
-
-.dropdown-content{
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a{
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover{
-    background-color: #f1f1f1;
-}
-
-.dropdown-btn:hover .dropdown-content{
-    display: block;
-}
-main{
-    padding: 20px;
-}
-
-.hero-section{
-    background-color: #f4f4f4;
-    padding: 50px 20px;
-    text-align: center;
-}
-
-.content-section{
-    padding: 20px;
-    border-bottom: 1px solid #ccc;
-}
-
-footer{
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-} */
