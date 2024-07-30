@@ -254,7 +254,7 @@ p {
     /* border: 1px solid #007BFF; Change border color on hover */
 }
 
-.form-container {
+/* .form-container {
     background-color: white;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -262,7 +262,7 @@ p {
     width: 500px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: auto;
-}
+} */
 
 form {
     Display: flex;
@@ -305,7 +305,7 @@ form {
     font-size: 1.5em;
     transition: background-color 0.3s;
 }
-.contact-box {
+/* .contact-box {
     background-color: white;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -314,7 +314,7 @@ form {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     align: flex;
     margin: auto;
-}
+} */
 
 .contact-box h3 {
     color: #00a9e0;
