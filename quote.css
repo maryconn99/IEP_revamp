@@ -123,6 +123,12 @@ h2 {
     text-align: center;
     display: inline-block;
 }
+
+h {
+    font-size: 1 em;
+    text-align: center;
+    color: black;
+}
 /*fix these later ^ Need to get title centered*/
 /*need to get the items drop down menu to the left of request a quote and flex to screen*/
 
