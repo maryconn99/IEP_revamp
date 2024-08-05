@@ -7,7 +7,7 @@
     
 </head>
 <body>
-    <p>Hello World!</p>
+    
 
     <header class="banner">
         <img src="logo.png" alt="IEP Logo" class="logo">
