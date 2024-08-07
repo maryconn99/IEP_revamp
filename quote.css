@@ -132,40 +132,6 @@ h {
 /*fix these later ^ Need to get title centered*/
 /*need to get the items drop down menu to the left of request a quote and flex to screen*/
 
-.content1 {
-    text-align: center;
-    display: block;
-}
-.content2 {
-    text-align: center;
-    display: block;
-}
-
-.photo1 {
-    float: left;
-    max-width: 100%;
-    height: 40%;
-    display: block;
-    padding: 5px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    border-radius: 15px;
-    
-}
-
-.photo2 {
-    float: left;
-            max-width: 100%;
-            height: 40%;
-            display: block;
-            margin-bottom: 5px;
-            margin-top: 5px;
-            padding: 10px;
-            border-radius: 15px !important;
-            object-fit: contain;
-            overflow: hidden;
-}
-
 p {
     font-size: 1em;
     font-weight: normal; /* Unbold the text */
